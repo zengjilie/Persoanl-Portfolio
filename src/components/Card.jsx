@@ -36,8 +36,7 @@ function Card(props){
     }
 
     const backgroundStyle = {
-        borderRadius: "50px",
-        outline: "solid 3px white"
+        boxShadow:"0 0 0 3px white"
     }
 
     return (
