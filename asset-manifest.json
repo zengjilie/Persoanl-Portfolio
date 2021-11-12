@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/keeper-app/static/css/main.3eefd537.chunk.css",
+    "main.js": "/keeper-app/static/js/main.a413817f.chunk.js",
+    "main.js.map": "/keeper-app/static/js/main.a413817f.chunk.js.map",
+    "runtime-main.js": "/keeper-app/static/js/runtime-main.28c87f21.js",
+    "runtime-main.js.map": "/keeper-app/static/js/runtime-main.28c87f21.js.map",
+    "static/js/2.3a8550d7.chunk.js": "/keeper-app/static/js/2.3a8550d7.chunk.js",
+    "static/js/2.3a8550d7.chunk.js.map": "/keeper-app/static/js/2.3a8550d7.chunk.js.map",
+    "index.html": "/keeper-app/index.html",
+    "static/css/main.3eefd537.chunk.css.map": "/keeper-app/static/css/main.3eefd537.chunk.css.map",
+    "static/js/2.3a8550d7.chunk.js.LICENSE.txt": "/keeper-app/static/js/2.3a8550d7.chunk.js.LICENSE.txt",
+    "static/media/tabbar.css": "/keeper-app/static/media/BalooPaaji2-Bold.2b2ae221.ttf",
+    "static/media/BalooPaaji2-ExtraBold.3b88855c.ttf": "/keeper-app/static/media/BalooPaaji2-ExtraBold.3b88855c.ttf",
+    "static/media/card.css": "/keeper-app/static/media/BalsamiqSans-Regular.600fc423.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28c87f21.js",
+    "static/js/2.3a8550d7.chunk.js",
+    "static/css/main.3eefd537.chunk.css",
+    "static/js/main.a413817f.chunk.js"
+  ]
+}
