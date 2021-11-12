@@ -9,7 +9,7 @@ function App() {
   
   function create(){
     setNotes((prevNotes) =>{
-      return [...prevNotes, "Write here..."]
+      return [...prevNotes, ""]
     })
   }
 
