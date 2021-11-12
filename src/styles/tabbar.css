@@ -1,0 +1,108 @@
+.button-container{
+    width:100%;
+    height:74px;
+    display:flex;
+    justify-content: space-between; 
+    position:relative;
+    z-index:0
+}
+
+.button-box{
+    width:50%;
+    position:relative;
+    z-index:2;
+}
+
+.tabbar-button{
+    width:100%;
+    height:100%;
+    border-radius: 100px;
+    border:0;
+    padding:0;
+    background-color:transparent;
+    font-size:1.875rem;
+    font-family: 'BalooPaaji2-ExtraBold','Arial';
+    color:white;
+    position:relative;
+    z-index:4;
+}
+
+.button-background{
+    background-image:linear-gradient(to bottom right, #fff, #D0C3C3 );
+    opacity:30%;
+    width:calc(100% - 12px);
+    height:calc(100% - 12px);
+    border-radius: 100px;
+    position:absolute;
+    top:6px;
+    left:6px;
+    z-index:3;
+    display:none 
+}
+
+.tabbar-button:active + .button-background{
+    display:block
+}
+
+.container-background{
+    width:100%;
+    height:100%;
+    background:black;
+    opacity:20%;
+    border-radius: 37px;
+    position:absolute;
+    z-index:1;
+}
+
+@font-face {
+    font-family: "BalooPaaji2-ExtraBold";
+    src: url(../fonts/Baloo_Paaji_2/BalooPaaji2-Bold.ttf);
+}
+
+@media only screen and (min-width: 600px){
+    .button-container{
+        width:185px;
+        height: calc(100vh - 40px);
+        display:flex;
+        flex-direction: column ;
+        justify-content: space-between; 
+        align-items: center;
+        position:fixed;
+        top:20px;
+        z-index:0
+    }
+
+    .button-box{
+        height:50%;
+        width:100%;
+        position:relative;
+        z-index:2;
+    }
+
+    .button-background{
+        background-image:linear-gradient(to bottom right, #fff, #D0C3C3 );
+        opacity:30%;
+        width:calc(100% - 40px);
+        height:calc(100% - 40px);
+        border-radius: 37px;
+        position:absolute;
+        top:20px;
+        left:20px;
+        z-index:3;
+        display:none 
+    }
+
+    .container-background{
+        width:100%;
+        height:100%;
+        background:black;
+        opacity:20%;
+        border-radius: 50px;
+        position:absolute;
+        z-index:1;
+    }
+
+    .tabbar-button:hover + .button-background{
+        display:block
+    }
+}

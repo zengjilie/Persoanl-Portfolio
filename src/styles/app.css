@@ -1,0 +1,9 @@
+@media only screen and (min-width: 600px){
+    .card-box{
+        margin-left: 205px;
+        display:flex;
+        flex-wrap:wrap;
+        gap:20px;
+    }
+
+}
